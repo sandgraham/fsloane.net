@@ -1,35 +1,28 @@
 body {
     margin: 0;
-    background-color: #fff;
+    font-family: "Lucida Console", "Courier New", Courier, Monaco, monospace
 }
+
 iframe {
     display: block;
     height: 100vh;
     width: 100%;
 }
+
 .info {
     height: 100vh;
+    min-height: 600px;
     width: 100%;
     display: table;
 }
-.info-center {
+.email {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
+    font-size: 17.4px;
     padding: 0 10px;
 }
 .img {
+    margin-bottom: 20px;
     max-width: 100%;
-}
-.email {
-    color: #444;
-    font-family: "Lucida Console", Monaco, monospace;
-    letter-spacing: 1px;
-    line-height: 40px;
-    font-size: 20px;
-}
-@media screen and (max-width: 340px) {
-    .email {
-        font-size: 7vw;
-    }
 }
